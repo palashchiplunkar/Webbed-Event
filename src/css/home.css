@@ -1,0 +1,29 @@
+
+.content-container{
+    float: left;
+    width:30% ;   
+    margin-left:10vh;
+    margin-top:10vh;
+}
+.content-heading{
+    color: aqua;
+
+}
+.content-para{
+    color:aliceblue;
+}
+.content-button{
+    width: 18vh;
+    background:none;
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    height: 8vh;
+    border:2px solid aqua;
+    transition: 500ms;
+}
+.content-button:hover{
+    cursor: pointer;
+    border: 2px solid white;
+    background-color:aqua;
+    color: aliceblue;
+}

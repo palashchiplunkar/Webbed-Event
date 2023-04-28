@@ -1,0 +1,30 @@
+.nav-container{
+
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.nav-container ul{
+    list-style: none;
+    
+}
+
+.nav-container h1{
+    padding:2vh 10vh;
+    color: aqua;
+    
+}
+.nav-container ul li{
+    display: inline-block;
+    padding:2vh 8vh;
+    color: rgb(255, 255, 255);
+    border:none;
+    cursor: pointer;
+
+}
+
+.nav-container ul li:hover{
+    border: 2px solid white;
+}
